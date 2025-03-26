@@ -1,9 +1,8 @@
 import { Plus } from 'lucide-react';
 
-interface Props {
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
 	figure: number;
 	text: string;
-	[key: string]: any;
 }
 
 export default function Fact({ figure, text, ...rest }: Props) {

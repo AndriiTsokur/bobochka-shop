@@ -19,8 +19,9 @@ export default function FactSheet() {
 				</p>
 				<p className='mb-7 text-sm font-light select-none'>
 					In Odesa, they used to say <span className='font-bold'>Bobochka</span>
-					! Even my dad... That's how we named our project. This is a project of
-					original prints on very high-quality T-shirts and shoppers. Enjoy!
+					! Even my dad... That&apos;s how we named our project. This is a
+					project of original prints on very high-quality T-shirts and shoppers.
+					Enjoy!
 				</p>
 
 				<Button asChild className='w-52 h-13 rounded-full mb-7'>
