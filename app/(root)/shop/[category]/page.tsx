@@ -2,6 +2,10 @@ import { notFound } from 'next/navigation';
 import { $VALID_CATEGORIES } from '@/lib/constants';
 import { Container } from '@/components/shared';
 
+export const metadata = {
+	title: 'Shop',
+};
+
 interface Props {
 	params: Promise<{
 		category: string;

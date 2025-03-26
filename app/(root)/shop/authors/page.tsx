@@ -1,5 +1,9 @@
 import { Container } from '@/components/shared';
 
+export const metadata = {
+	title: 'Authors',
+};
+
 export default function Authors() {
 	return (
 		<Container>

@@ -1,5 +1,9 @@
 import { Container } from '@/components/shared';
 
+export const metadata = {
+	title: 'Shop',
+};
+
 export default function Shop() {
 	return (
 		<Container>

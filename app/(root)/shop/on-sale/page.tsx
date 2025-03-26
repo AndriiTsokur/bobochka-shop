@@ -1,5 +1,9 @@
 import { Container } from '@/components/shared';
 
+export const metadata = {
+	title: 'On Sale Items',
+};
+
 export default function OnSale() {
 	return (
 		<Container>
