@@ -3,9 +3,9 @@ import { $VALID_CATEGORIES } from '@/lib/constants';
 import { Container } from '@/components/shared';
 
 interface Props {
-	params: {
+	params: Promise<{
 		category: string;
-	};
+	}>;
 }
 
 export default async function CategoryPage({ params }: Props) {

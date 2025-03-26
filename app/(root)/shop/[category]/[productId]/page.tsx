@@ -1,10 +1,10 @@
 import { Container } from '@/components/shared';
 
 interface Props {
-	params: {
+	params: Promise<{
 		category: string;
 		productId: string;
-	};
+	}>;
 }
 
 export default async function ProductPage({ params }: Props) {
