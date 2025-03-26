@@ -42,7 +42,11 @@ export default function MenuDesktop() {
 		<NavigationMenu>
 			<NavigationMenuList>
 				<NavigationMenuItem>
-					<NavigationMenuTrigger>Shop</NavigationMenuTrigger>
+					<NavigationMenuTrigger>
+						<Link href='/shop' legacyBehavior passHref>
+							Shop
+						</Link>
+					</NavigationMenuTrigger>
 					<NavigationMenuContent>
 						<ul className=''>
 							{shopItems.map((item) => (
@@ -73,7 +77,7 @@ export default function MenuDesktop() {
 				</NavigationMenuItem>
 
 				<NavigationMenuItem>
-					<Link href='/authors' legacyBehavior passHref>
+					<Link href='/shop/authors' legacyBehavior passHref>
 						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
 							Authors
 						</NavigationMenuLink>

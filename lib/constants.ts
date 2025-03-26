@@ -4,3 +4,11 @@ export const $APP_DESCRIPTION =
 	"New reincarnation of the famous Odesa store of author's prints “Bobochka”";
 
 export const $MONGODB_URI = process.env.MONGODB_URI;
+
+export const $VALID_CATEGORIES = [
+	't-shirts',
+	'hoodies',
+	'sweatshirts',
+	'shopper-bags',
+	'collections',
+];
