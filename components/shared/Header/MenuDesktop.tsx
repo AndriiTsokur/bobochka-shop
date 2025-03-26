@@ -85,7 +85,7 @@ export default function MenuDesktop() {
 }
 
 const ListItem = React.forwardRef<
-	React.ElementRef<'a'>,
+	React.ComponentRef<'a'>,
 	React.ComponentPropsWithoutRef<'a'>
 >(({ className, title, ...props }, ref) => {
 	return (

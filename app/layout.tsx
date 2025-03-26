@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import '@/assets/globals.css';
 import { $APP_URL, $APP_TITLE, $APP_DESCRIPTION } from '@/lib/constants';
-import { Header } from '@/components/index';
+import { Header } from '@/components/shared';
 
 const roboto = Roboto({
 	subsets: ['latin'],
@@ -28,9 +28,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${roboto.className} antialiased`}>
+			<body className={`${roboto.className} subpixel-antialiased`}>
 				<Header />
-				<div className='max-w-7xl mx-auto px-5'>{children}</div>
+				<main>{children}</main>
 			</body>
 		</html>
 	);

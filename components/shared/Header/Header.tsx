@@ -1,5 +1,4 @@
-import SignUpNow from './SignUpNow';
-import NavBar from './NavBar';
+import { SignUpNow, NavBar } from './';
 
 export default function Header() {
 	return (
